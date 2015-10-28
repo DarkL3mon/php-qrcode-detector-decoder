@@ -10,6 +10,8 @@ require_once ('BinaryBitmap.php');
 include_once ('LuminanceSource.php');
 include_once ('GDLuminanceSource.php');
 include_once ('IMagickLuminanceSource.php');
+require_once ('common/CharacterSetEci.php');//<-- updated at 28-10-2015 by DarkL3mon
+require_once ('common/AbstractEnum.php');//<-- updated at 28-10-2015 by DarkL3mon
 include_once ('common/customFunctions.php');
 include_once ('common/PerspectiveTransform.php');
 include_once ('common/GridSampler.php');
